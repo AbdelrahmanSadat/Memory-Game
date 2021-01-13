@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Memory Game</title>
+    <script src="script.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="StartMenu">
+        <center>
+            <h1><span>Memory Game</span></h1>
+        </center>
+        <center>
+            <input type="radio" name="size" value="16" checked>
+            <span class="choice">4x4</span><br>
+            <input type="radio" name="size" value="20">
+            <span class="choice"> 4x5</span><br>
+            <input type="radio" name="size" value="24">
+            <span class="choice"> 4x6</span><br>
+            <input type="radio" name="size" value="30">
+            <span class="choice"> 5x6</span><br>
+            <input type="radio" name="size" value="36">
+            <span class="choice"> 6x6</span><br>
+
+            <br>
+
+            <button id="start" onclick="startGame()" class="button" style="vertical-align:middle"><span>Start </span></button>
+
+        </center>
+    </div>
+    <div id="puzzlePics"></div>
+</body>
+
+</html>
